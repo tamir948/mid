@@ -8,7 +8,7 @@
     color: white;
 }
 header{
-    background-image:url("/images/images/header_bg.png") ;
+    background-image:url("/images/header_bg.png") ;
     height: 105px;
     width: 100%;
 }
@@ -23,7 +23,7 @@ input{
 }
 .left-box{
     float: left;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 #logo {
     position: absolute;
@@ -38,7 +38,7 @@ li.top {
 .sep{
     width: 4px;
     height: 21px;
-    background: url(/images/images/menu_sep.png) no-repeat ;
+    background: url(/images/menu_sep.png) no-repeat ;
     margin: 0 15px;
     display: inline;
 }
