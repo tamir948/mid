@@ -32,35 +32,88 @@ input{
 li.top {
     display: inline;
     text-decoration:none;
-    
-    
 }   
 .sep{
     width: 4px;
     height: 21px;
     background: url(/images/menu_sep.png) no-repeat ;
-    margin: 0 15px;
+    margin: 5px 10px;
     display: inline;
 }
 #horizontal-list{
     position: relative;
-    margin:0 143px 0 0;
-    
+    margin:0 160px 0 0;
     font: 15px;
     font-weight: bold;
     list-style: none;
-    position: absolute;
-    top: 70px;
-    
+    top: 60px; 
 }
 .dropdwn{
     display: none;
     list-style: none;
     position: absolute;
-    background-color: black;
+    background-color: gray;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 200;
 }
 .top:hover .dropdwn{
     display: block;
     text-decoration: underline;
+}
+main{
+    width: 900px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.first-row{
+    margin-top: 32px;   
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    position: relative;
+}
+img.r{
+    border-bottom-right-radius: 20px ;
+}
+.first-text,.second-text,.third-text{
+    position: absolute;
+    width: 250px;
+    height: 95px;
+    background-color: grey;
+    opacity: 0.9;
+    z-index: 100;
+    font-size: 13px;
+    bottom: 10px;
+    padding: 10px;
+    border-bottom-right-radius: 20px ;
+}
+.second-row{
+    margin-top: 20px;   
+    display: flex;
+    justify-content:space-evenly;
+    flex-direction: row;
+    position: relative;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    background-image:url("/images/footer_bg.png");
+    height: 37px;
+    width: 100%;
+    z-index: 300;
+    font-size: 14px;
+    margin-top: 25px;
+}
+ul.footer li{
+    display: inline;
+    text-decoration:none;
+}
+ul.footer{
+    width: 900px;
+    margin:0 auto;
+}
+li:hover{
+    text-decoration-line:underline;
+    color: #005CA0;
+    cursor: pointer;
 }
