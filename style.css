@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    direction: rtl;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    font-family: 'Arial (Hebrew)', Arial;
+    color: white;
+}
+header{
+    background-image:url("/images/images/header_bg.png") ;
+    height: 105px;
+    width: 100%;
+}
+#header{
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+input{
+    border-top-right-radius: 5px;
+}
+.left-box{
+    float: left;
+    margin-top: 10px;
+}
+#logo {
+    position: absolute;
+    top: 33px;
+}
+li.top {
+    display: inline;
+    text-decoration:none;
+    
+    
+}   
+.sep{
+    width: 4px;
+    height: 21px;
+    background: url(/images/images/menu_sep.png) no-repeat ;
+    margin: 0 15px;
+    display: inline;
+}
+#horizontal-list{
+    position: relative;
+    margin:0 143px 0 0;
+    
+    font: 15px;
+    font-weight: bold;
+    list-style: none;
+    position: absolute;
+    top: 70px;
+    
+}
+.dropdwn{
+    display: none;
+    list-style: none;
+    position: absolute;
+    background-color: black;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.top:hover .dropdwn{
+    display: block;
+    text-decoration: underline;
+}
