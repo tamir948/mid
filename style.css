@@ -6,6 +6,8 @@
     margin: 0;
     font-family: 'Arial (Hebrew)', Arial;
     color: white;
+    text-decoration:none;
+
 }
 header{
     background-image:url("/images/header_bg.png") ;
@@ -29,24 +31,25 @@ input{
     position: absolute;
     top: 33px;
 }
+
 li.top {
-    display: inline;
-    text-decoration:none;
+    display: inline; 
 }   
 .sep{
+    background: url(/images/menu_sep.png) no-repeat 0 0px;
+    display: inline; 
     width: 4px;
     height: 21px;
-    background: url(/images/menu_sep.png) no-repeat ;
-    margin: 5px 10px;
-    display: inline;
+    margin: 0 16px;
+    position: relative;
 }
 #horizontal-list{
     position: relative;
-    margin:0 160px 0 0;
+    margin:0 140px 0 0;
     font: 15px;
     font-weight: bold;
     list-style: none;
-    top: 60px; 
+    top: 70px; 
 }
 .dropdwn{
     display: none;
@@ -60,6 +63,7 @@ li.top {
     display: block;
     text-decoration: underline;
 }
+
 main{
     width: 900px;
     margin: 0 auto;
@@ -85,7 +89,8 @@ img.r{
     font-size: 13px;
     bottom: 10px;
     padding: 10px;
-    border-bottom-right-radius: 20px ;
+    border-bottom-right-radius: 20px;
+    margin-right: 7px;
 }
 .second-row{
     margin-top: 20px;   
@@ -93,6 +98,23 @@ img.r{
     justify-content:space-evenly;
     flex-direction: row;
     position: relative;
+    padding-bottom: 38px;
+}
+.forth-text{
+    position: absolute;
+    color:black;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.forth-img{
+    position: absolute;
+    top: 50px;
+    margin-right: 20px;
+}
+.isr{
+    position: absolute;
+    top: 40px;
+    margin-right: 200px;
 }
 footer{
     position: fixed;
@@ -117,3 +139,4 @@ li:hover{
     color: #005CA0;
     cursor: pointer;
 }
+
